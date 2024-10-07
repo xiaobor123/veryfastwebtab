@@ -1,50 +1,50 @@
 {
   "ohos-module-entry": {
     "SELECT_TARGET": "default",
-    "MODULE_BUILD_DIR": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build",
+    "MODULE_BUILD_DIR": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build",
     "DEPENDENCY_INFO": {
-      "hpcwebtabs": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs"
+      "hpcwebtabs": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs"
     },
     "TARGETS": {
       "default": {
-        "SOURCE_ROOT": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\src\\main",
+        "SOURCE_ROOT": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\src\\main",
         "RESOURCES_PATH": [
-          "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\src\\main\\resources"
+          "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\src\\main\\resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\outputs\\default",
-          "INTERMEDIA_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates",
-          "JS_ASSETS_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\loader_out\\default",
-          "JS_LITE_ASSETS_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
-          "RES_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\res\\default",
-          "RES_PROFILE_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
-          "ETS_SUPER_VISUAL_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
-          "JS_SUPER_VISUAL_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
-          "WORKER_LOADER": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
-          "MANIFEST_JSON": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\manifest\\default",
-          "OUTPUT_METADATA_JSON": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+          "OUTPUT_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
         },
         "BUILD_OPTION": {
           "debuggable": true
         }
       },
       "ohosTest": {
-        "SOURCE_ROOT": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\src\\ohosTest",
+        "SOURCE_ROOT": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\src\\ohosTest",
         "RESOURCES_PATH": [
-          "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\src\\ohosTest\\resources"
+          "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\src\\ohosTest\\resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\outputs\\ohosTest",
-          "INTERMEDIA_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates",
-          "JS_ASSETS_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
-          "JS_LITE_ASSETS_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
-          "RES_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\res\\ohosTest",
-          "RES_PROFILE_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
-          "ETS_SUPER_VISUAL_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
-          "JS_SUPER_VISUAL_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
-          "WORKER_LOADER": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
-          "MANIFEST_JSON": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
-          "OUTPUT_METADATA_JSON": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
+          "OUTPUT_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
         },
         "BUILD_OPTION": {
           "debuggable": true
@@ -98,26 +98,26 @@
   },
   "ohos-module-hpcWebTabs": {
     "SELECT_TARGET": "default",
-    "MODULE_BUILD_DIR": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build",
+    "MODULE_BUILD_DIR": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build",
     "DEPENDENCY_INFO": {},
     "TARGETS": {
       "default": {
-        "SOURCE_ROOT": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\src\\main",
+        "SOURCE_ROOT": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\src\\main",
         "RESOURCES_PATH": [
-          "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\src\\main\\resources"
+          "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\src\\main\\resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\outputs\\default",
-          "INTERMEDIA_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\intermediates",
-          "JS_ASSETS_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\intermediates\\loader_out\\default",
-          "JS_LITE_ASSETS_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\intermediates\\loader_out_lite\\default",
-          "RES_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\intermediates\\res\\default",
-          "RES_PROFILE_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
-          "ETS_SUPER_VISUAL_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
-          "JS_SUPER_VISUAL_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
-          "WORKER_LOADER": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\intermediates\\loader\\default\\loader.json",
-          "MANIFEST_JSON": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\intermediates\\manifest\\default",
-          "OUTPUT_METADATA_JSON": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+          "OUTPUT_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
         },
         "BUILD_OPTION": {
           "debuggable": true
@@ -174,15 +174,15 @@
   },
   "ohos-project": {
     "SELECT_PRODUCT_NAME": "default",
-    "MODULE_BUILD_DIR": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\build",
+    "MODULE_BUILD_DIR": "D:\\1234\\temp\\hh\\hpc-web-tabs\\build",
     "BUNDLE_NAME": "com.example.mywebui7",
     "BUILD_PATH": {
-      "OUTPUT_PATH": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\build\\outputs\\default"
+      "OUTPUT_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\build\\outputs\\default"
     },
     "MODULES": [
       {
         "name": "entry",
-        "srcPath": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\entry",
+        "srcPath": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry",
         "targets": [
           {
             "name": "default",
@@ -191,12 +191,12 @@
             ]
           }
         ],
-        "belongProjectPath": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code"
+        "belongProjectPath": "D:\\1234\\temp\\hh\\hpc-web-tabs"
       },
       {
         "name": "hpcWebTabs",
-        "srcPath": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\hpcWebTabs",
-        "belongProjectPath": "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code"
+        "srcPath": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs",
+        "belongProjectPath": "D:\\1234\\temp\\hh\\hpc-web-tabs"
       }
     ],
     "PROFILE_OPT": {
@@ -206,13 +206,13 @@
             "name": "default",
             "type": "HarmonyOS",
             "material": {
-              "certpath": "C:\\Users\\86181\\.ohos\\config\\default_code_9mKsdLlu-tei6YJ5O_eRdyaRBoZhju-4_N2W5snGxsM=.cer",
-              "storePassword": "0000001B67F12B8F977C983B8BAAE6DB9ACD5306E46AFAEA4ECE6FE99769A6D0E4D72DE1AAA586B31C1C06",
+              "certpath": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.cer",
+              "storePassword": "0000001BC751F2F7B0141E588853F650C165FD6C2CBA73B41C54D124B41DC1E965547A6CA4046D19AD6354",
               "keyAlias": "debugKey",
-              "keyPassword": "0000001BEC3FE6E250CA82BDAD40291304B9F41C96F99523246C52E21445905AA968EC4E92830B22D24F5E",
-              "profile": "C:\\Users\\86181\\.ohos\\config\\default_code_9mKsdLlu-tei6YJ5O_eRdyaRBoZhju-4_N2W5snGxsM=.p7b",
+              "keyPassword": "0000001B5FC78DD1C60F21C7965E255A1A572F78981D79DA1B0B973880CB9E1112B576E49BD32FE381FFBD",
+              "profile": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.p7b",
               "signAlg": "SHA256withECDSA",
-              "storeFile": "C:\\Users\\86181\\.ohos\\config\\default_code_9mKsdLlu-tei6YJ5O_eRdyaRBoZhju-4_N2W5snGxsM=.p12"
+              "storeFile": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.p12"
             }
           }
         ],
@@ -264,7 +264,7 @@
       "hvigor.keepDependency": true
     },
     "OVERALL_PROJECT_PATHS": [
-      "C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code"
+      "D:\\1234\\temp\\hh\\hpc-web-tabs"
     ]
   },
   "version": 1

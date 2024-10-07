@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "C:\\Users\\86181\\.ohos\\config\\default_code_9mKsdLlu-tei6YJ5O_eRdyaRBoZhju-4_N2W5snGxsM=.cer",
-          "storePassword": "0000001B67F12B8F977C983B8BAAE6DB9ACD5306E46AFAEA4ECE6FE99769A6D0E4D72DE1AAA586B31C1C06",
+          "certpath": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.cer",
+          "storePassword": "0000001BC751F2F7B0141E588853F650C165FD6C2CBA73B41C54D124B41DC1E965547A6CA4046D19AD6354",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001BEC3FE6E250CA82BDAD40291304B9F41C96F99523246C52E21445905AA968EC4E92830B22D24F5E",
-          "profile": "C:\\Users\\86181\\.ohos\\config\\default_code_9mKsdLlu-tei6YJ5O_eRdyaRBoZhju-4_N2W5snGxsM=.p7b",
+          "keyPassword": "0000001B5FC78DD1C60F21C7965E255A1A572F78981D79DA1B0B973880CB9E1112B576E49BD32FE381FFBD",
+          "profile": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "C:\\Users\\86181\\.ohos\\config\\default_code_9mKsdLlu-tei6YJ5O_eRdyaRBoZhju-4_N2W5snGxsM=.p12"
+          "storeFile": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.p12"
         }
       }
     ],
