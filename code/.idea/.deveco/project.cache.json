@@ -3,7 +3,7 @@
 		"BUNDLE_NAME":"com.example.mywebui7",
 		"SELECT_BUILD_MODE":"",
 		"BUILD_PATH":{
-			"OUTPUT_PATH":"D:\\1234\\temp\\mywebui3\\build\\outputs\\default"
+			"OUTPUT_PATH":"C:\\liuweijun\\openharmony_tsc\\last\\veryfastwebtab\\code\\build\\outputs\\default"
 		},
 		"SELECT_BUILD_PRODUCT":"default"
 	},

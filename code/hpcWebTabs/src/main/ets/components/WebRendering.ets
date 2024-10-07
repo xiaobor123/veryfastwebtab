@@ -33,10 +33,10 @@ function WebBuilder(data:createWebData) {
       })
       .onPageVisible((event) => {
         console.log("Page visible "+data.url)
-        if(data.url == myWebUrl[0]) {
+        if(data.url == myWebUrl[0]&&myWebUrl.length==3) {
           data.controller.prefetchPage(myWebUrl[2])
         }
-        if(data.url == myWebUrl[0]&&isload1 ==0){
+        if(data.url == myWebUrl[0]&&isload1 ==0&&myWebUrl.length>=2){
           isload1 = isload1+1
           mybusinessNode2=createCommonWeb(myWebUrl[1],uicontext,data.controller);
           mydata.pushData(mybusinessNode2)
@@ -44,7 +44,7 @@ function WebBuilder(data:createWebData) {
       })
       .onPageBegin((event) => {
         console.log("Page begin "+data.url)
-        if(data.url == myWebUrl[1]&&isload2 ==0) {
+        if(data.url == myWebUrl[1]&&isload2 ==0&&myWebUrl.length>=3) {
           isload2 = isload2+1
           mybusinessNode3=createCommonWeb(myWebUrl[2],uicontext,data.controller);
           mydata.pushData(mybusinessNode3)
@@ -55,7 +55,7 @@ function WebBuilder(data:createWebData) {
       })
       .onControllerAttached(async () => {
         if(data.url == myWebUrl[0]){
-            //taskPoolExecute(data.controller)
+          //taskPoolExecute(data.controller)
           //taskPoolExecute(data.controller)
 
           let array2: Array<Config> = configs
@@ -86,7 +86,29 @@ function WebBuilder(data:createWebData) {
   }
 }
 
-
+// async function taskPoolExecute(controler4:webview.WebviewController): Promise<[]> {
+//   let task: taskpool.Task = new taskpool.Task(mockRequestData,getContext(),controler4);
+//   return await taskpool.execute(task) as [];
+// }
+//
+// @Concurrent
+// async function mockRequestData(context: Context,controler1:webview.WebviewController): Promise<[]> {
+//   let array2: Array<Config> = configs
+//   for (let config of array2) {
+//     let content = context.resourceManager.getRawFileContentSync(config.location);
+//     try {
+//       controler1.precompileJavaScript(config.url, content, config.options)
+//         .then((errCode: number) => {
+//           console.log('precompile successfully!' );
+//         }).catch((errCode: number) => {
+//         console.error('precompile failed.' + errCode);
+//       })
+//     } catch (err) {
+//       console.error('precompile failed!.' + err.code + err.message);
+//     }
+//   }
+//   return [];
+// }
 
 let wrap = wrapBuilder<createWebData[]>(WebBuilder);
 

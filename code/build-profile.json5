@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "C:\\Users\\梅某彦\\.ohos\\config\\default_mywebui3_dQKGfKkJjDqFcU0N1y6flnep9Up5VNheIXPjxMNZUcE=.cer",
-          "storePassword": "0000001B9573FFD19296090183F1F1B421B8C0C92941D07574C72097FE4C8155F3F422AC51A88E3F538321",
+          "certpath": "C:\\Users\\86181\\.ohos\\config\\default_code_9mKsdLlu-tei6YJ5O_eRdyaRBoZhju-4_N2W5snGxsM=.cer",
+          "storePassword": "0000001B67F12B8F977C983B8BAAE6DB9ACD5306E46AFAEA4ECE6FE99769A6D0E4D72DE1AAA586B31C1C06",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001BC3C4341EB5F76C56AAD8C3F534AE150B57E06C579BF4D23266F18581E23345A529BEC538EA7DFE",
-          "profile": "C:\\Users\\梅某彦\\.ohos\\config\\default_mywebui3_dQKGfKkJjDqFcU0N1y6flnep9Up5VNheIXPjxMNZUcE=.p7b",
+          "keyPassword": "0000001BEC3FE6E250CA82BDAD40291304B9F41C96F99523246C52E21445905AA968EC4E92830B22D24F5E",
+          "profile": "C:\\Users\\86181\\.ohos\\config\\default_code_9mKsdLlu-tei6YJ5O_eRdyaRBoZhju-4_N2W5snGxsM=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "C:\\Users\\梅某彦\\.ohos\\config\\default_mywebui3_dQKGfKkJjDqFcU0N1y6flnep9Up5VNheIXPjxMNZUcE=.p12"
+          "storeFile": "C:\\Users\\86181\\.ohos\\config\\default_code_9mKsdLlu-tei6YJ5O_eRdyaRBoZhju-4_N2W5snGxsM=.p12"
         }
       }
     ],
