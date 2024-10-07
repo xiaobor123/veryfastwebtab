@@ -1,0 +1,37 @@
+{
+  "entry\\src\\main\\ets\\entryability\\EntryAbility.ets": [
+    "If"
+  ],
+  "entry\\src\\main\\ets\\pages\\Index.ets": [
+    "Column",
+    "Stack",
+    "Image",
+    "Text"
+  ],
+  "hpcWebTabs\\src\\main\\ets\\components\\HpcTabs.ets": [
+    "Column",
+    "Stack",
+    "Scroll",
+    "Row",
+    "ForEach",
+    "Swiper",
+    "NodeContainer",
+    "LazyForEach",
+    "Text",
+    "If"
+  ],
+  "hpcWebTabs\\src\\main\\ets\\components\\HpcTabsController.ets": [
+    "Animator",
+    "Scroller",
+    "SwiperController",
+    "If"
+  ],
+  "hpcWebTabs\\src\\main\\ets\\components\\DataSource.ets": [
+    "If"
+  ],
+  "hpcWebTabs\\src\\main\\ets\\components\\WebRendering.ets": [
+    "Column",
+    "Web",
+    "If"
+  ]
+}

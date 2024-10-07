@@ -1,0 +1,25 @@
+{
+  "modulePathMap": {
+    "entry": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry",
+    "hpcWebTabs": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "D:\\1234\\temp\\hh\\hpc-web-tabs",
+  "nodeModulesPath": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "entry",
+  "hspNameOhmMap": {},
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {},
+  "anBuildOutPut": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type",
+  "patchConfig": {
+    "changedFileList": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+  }
+}
