@@ -1,0 +1,271 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build",
+    "DEPENDENCY_INFO": {
+      "hpcwebtabs": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-module-hpcWebTabs": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              },
+              "consumerFiles": [
+                "./consumer-rules.txt"
+              ]
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "D:\\1234\\temp\\hh\\hpc-web-tabs\\build",
+    "BUNDLE_NAME": "com.example.mywebui7",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "D:\\1234\\temp\\hh\\hpc-web-tabs\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "D:\\1234\\temp\\hh\\hpc-web-tabs\\entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "D:\\1234\\temp\\hh\\hpc-web-tabs"
+      },
+      {
+        "name": "hpcWebTabs",
+        "srcPath": "D:\\1234\\temp\\hh\\hpc-web-tabs\\hpcWebTabs",
+        "belongProjectPath": "D:\\1234\\temp\\hh\\hpc-web-tabs"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "certpath": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.cer",
+              "storePassword": "0000001BC5B8E6746E31F2C5F8E971339C741C18434A6492FFCA6ACCA1319A22A2F5C789ACAD41D1710E31",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001BD5497A6BE5348725D7D8B3465E525CCB11414589EA704E3D2C7B54E3F3BBF1A2936254366F5FD7",
+              "profile": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.p12"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.0(12)",
+            "runtimeOS": "HarmonyOS",
+            "buildOption": {
+              "strictMode": {
+                "caseSensitiveCheck": true,
+                "useNormalizedOHMUrl": true
+              }
+            }
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hpcWebTabs",
+          "srcPath": "./hpcWebTabs"
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "D:\\1234\\temp\\hh\\hpc-web-tabs"
+    ]
+  },
+  "version": 1
+}

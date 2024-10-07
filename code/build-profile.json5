@@ -1,0 +1,59 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.cer",
+          "storePassword": "0000001BC5B8E6746E31F2C5F8E971339C741C18434A6492FFCA6ACCA1319A22A2F5C789ACAD41D1710E31",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BD5497A6BE5348725D7D8B3465E525CCB11414589EA704E3D2C7B54E3F3BBF1A2936254366F5FD7",
+          "profile": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\梅某彦\\.ohos\\config\\default_hpc-web-tabs_3dDzkjIIir_-JjC243bG64MSQhesiwHuUr__NQl7Op0=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hpcWebTabs",
+      "srcPath": "./hpcWebTabs",
+    }
+  ]
+}
