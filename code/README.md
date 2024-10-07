@@ -18,7 +18,7 @@
 
 ## 效果展示
 
-<img src="./image/show.png" alt="show" style="zoom: 15%;" />
+<img src="./image/show.png" alt="show" width=300>
 
 
 
