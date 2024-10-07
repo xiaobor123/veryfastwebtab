@@ -11,9 +11,9 @@ struct Index {
     'https://www.openharmony.cn/'
   ]
   @Local names: Array<[string, Resource]> = [
-    ['百度新闻', $r('app.media.mine_selected')],
-    ['澎湃新闻', $r('app.media.mine2_selected')],
-    ['鸿蒙', $r('app.media.mine3_selected')]
+    ['百度新闻', $r('app.media.baidu')],
+    ['澎湃新闻', $r('app.media.pengpai')],
+    ['鸿蒙', $r('app.media.openharmony')]
   ];
   aboutToAppear(): void {
     console.log("Page first onappear")

@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a1a6b8-b8d1-42fa-a506-088e9903309d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entry/src/main/ets/pages/Index.ets" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/Index.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hpcWebTabs/src/main/ets/components/HpcTabs.ets" beforeDir="false" afterPath="$PROJECT_DIR$/hpcWebTabs/src/main/ets/components/HpcTabs.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hpcWebTabs/src/main/ets/components/HpcTabsController.ets" beforeDir="false" afterPath="$PROJECT_DIR$/hpcWebTabs/src/main/ets/components/HpcTabsController.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hpcWebTabs/src/main/ets/components/WebRendering.ets" beforeDir="false" afterPath="$PROJECT_DIR$/hpcWebTabs/src/main/ets/components/WebRendering.ets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/media/foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/media/home_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/media/home_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/media/layered_image.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/media/mine2_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/media/mine2_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/media/mine3_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/media/mine3_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/media/mine_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/media/mine_selected.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
