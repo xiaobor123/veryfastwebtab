@@ -28,7 +28,7 @@ export struct HpcTabs {
     myWebUrl=this.WebUrl
     this.tabController.show(this.WebUrl, this.barMode, this.tabStyle)
     this.tabController.animatorDuration = this.tabStyle.animationDuration ?? 300
-    webview.WebviewController.prepareForPageLoad('https://m.baidu.com/', true, 2);
+    webview.WebviewController.prepareForPageLoad(myWebUrl[0], true, 2);
     uicontext=this.getUIContext()
     createCommonWeb(myWebUrl[0],this.getUIContext(),this.webviewController1);
   }
@@ -121,7 +121,7 @@ export struct HpcTabs {
   MySwiper(tabController: HpcTabsController){
     Swiper(tabController.swiperController) {
       Stack() {
-        NodeContainer(getCommonWeb('https://m.baidu.com/'))
+        NodeContainer(getCommonWeb(myWebUrl[0]))
           .height('100%')
           .width('100%')
       }
@@ -137,6 +137,7 @@ export struct HpcTabs {
     }.layoutWeight(1)
     .onAreaChange((oldValue, newValue) => {
       tabController.swiperOnAreaChange(oldValue, newValue)
+
     })
     .onAnimationStart((index, targetIndex, extraInfo) => {
       tabController.swiperOnAnimationStart(index, targetIndex, extraInfo)

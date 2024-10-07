@@ -5,7 +5,7 @@ import {HpcTabs,HpcTabsController} from 'hpcwebtabs'
 @ComponentV2
 struct Index {
   HPCController = new HpcTabsController()
-  @Local tabs: Array<string> = [
+  @Local urls: Array<string> = [
     'https://m.baidu.com/',
     'https://m.thepaper.cn/',
     'https://www.openharmony.cn/'
@@ -15,10 +15,13 @@ struct Index {
     ['澎湃新闻', $r('app.media.mine2_selected')],
     ['鸿蒙', $r('app.media.mine3_selected')]
   ];
+  aboutToAppear(): void {
+    console.log("Page first onappear")
+  }
   build() {
     Column() {
       HpcTabs({
-        WebUrl: this.tabs,
+        WebUrl: this.urls,
         names: this.names,
         barMode: "fixed",
         tabController: this.HPCController,
@@ -41,6 +44,7 @@ struct Index {
     Stack().width('100%').height('100%')
       .backgroundColor(Color.Gray).borderRadius(12)
   }
+
 
   @Builder
   TabItem(tab:[string, Resource],index:number){

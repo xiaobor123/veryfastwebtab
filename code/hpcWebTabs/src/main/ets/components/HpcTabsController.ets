@@ -181,6 +181,7 @@ export class HpcTabsController {
   selectedTabIndexChange(monitor: IMonitor) {
     const index = monitor.value("selectedTabIndex")?.now as number
     this.swiperController.changeIndex(index, true)
+    console.log("Page visible click")
     if (this.animWhenIndexChange) {
       this.animationToIndex(index)
     } else {

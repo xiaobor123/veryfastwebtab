@@ -43,15 +43,11 @@ function WebBuilder(data:createWebData) {
         }
       })
       .onPageBegin((event) => {
-        console.log("Page begin "+data.url)
         if(data.url == myWebUrl[1]&&isload2 ==0&&myWebUrl.length>=3) {
           isload2 = isload2+1
           mybusinessNode3=createCommonWeb(myWebUrl[2],uicontext,data.controller);
           mydata.pushData(mybusinessNode3)
         }
-      })
-      .onPageEnd((event) => {
-        console.log("Page end "+data.url)
       })
       .onControllerAttached(async () => {
         if(data.url == myWebUrl[0]){
