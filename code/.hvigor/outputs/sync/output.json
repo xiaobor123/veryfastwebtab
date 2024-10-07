@@ -1,0 +1,271 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\1234\\temp\\mywebui3\\entry\\build",
+    "DEPENDENCY_INFO": {
+      "hpcwebtabs": "D:\\1234\\temp\\mywebui3\\hpcWebTabs"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\1234\\temp\\mywebui3\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\1234\\temp\\mywebui3\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "D:\\1234\\temp\\mywebui3\\entry\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "D:\\1234\\temp\\mywebui3\\entry\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "D:\\1234\\temp\\mywebui3\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-module-hpcWebTabs": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\1234\\temp\\mywebui3\\hpcWebTabs\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              },
+              "consumerFiles": [
+                "./consumer-rules.txt"
+              ]
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "D:\\1234\\temp\\mywebui3\\build",
+    "BUNDLE_NAME": "com.example.mywebui7",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "D:\\1234\\temp\\mywebui3\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "D:\\1234\\temp\\mywebui3\\entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "D:\\1234\\temp\\mywebui3"
+      },
+      {
+        "name": "hpcWebTabs",
+        "srcPath": "D:\\1234\\temp\\mywebui3\\hpcWebTabs",
+        "belongProjectPath": "D:\\1234\\temp\\mywebui3"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "certpath": "C:\\Users\\梅某彦\\.ohos\\config\\default_mywebui3_dQKGfKkJjDqFcU0N1y6flnep9Up5VNheIXPjxMNZUcE=.cer",
+              "storePassword": "0000001B9573FFD19296090183F1F1B421B8C0C92941D07574C72097FE4C8155F3F422AC51A88E3F538321",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001BC3C4341EB5F76C56AAD8C3F534AE150B57E06C579BF4D23266F18581E23345A529BEC538EA7DFE",
+              "profile": "C:\\Users\\梅某彦\\.ohos\\config\\default_mywebui3_dQKGfKkJjDqFcU0N1y6flnep9Up5VNheIXPjxMNZUcE=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "C:\\Users\\梅某彦\\.ohos\\config\\default_mywebui3_dQKGfKkJjDqFcU0N1y6flnep9Up5VNheIXPjxMNZUcE=.p12"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.0(12)",
+            "runtimeOS": "HarmonyOS",
+            "buildOption": {
+              "strictMode": {
+                "caseSensitiveCheck": true,
+                "useNormalizedOHMUrl": true
+              }
+            }
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hpcWebTabs",
+          "srcPath": "./hpcWebTabs"
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "D:\\1234\\temp\\mywebui3"
+    ]
+  },
+  "version": 1
+}
